@@ -126,6 +126,7 @@ dependencies = [
  "clap_derive",
  "criterion",
  "dotenv",
+ "regex",
 ]
 
 [[package]]
