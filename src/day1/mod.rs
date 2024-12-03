@@ -16,7 +16,7 @@ pub fn part1() -> String {
     list_a.sort();
     list_b.sort();
 
-    let couple = list_a.into_iter().zip(list_b.into_iter());
+    let couple = list_a.into_iter().zip(list_b);
 
     couple
         .into_iter()
